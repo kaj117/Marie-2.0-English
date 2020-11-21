@@ -18,31 +18,28 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+H̶̘̠̦̑̋̊̆̀́̽͗I̶̢̫͕͍̟̝̮͇͗̄́̈́̐͠͝ {}, 𝖒𝖞 𝖓𝖆𝖒𝖊 𝖎𝖘 {}! 𝖎𝖋 𝖞𝖔𝖚 𝖍𝖆𝖛𝖊 𝖆𝖓𝖞 𝖖𝖚𝖊𝖘𝖙𝖎𝖔𝖓𝖘 𝖆𝖇𝖔𝖚𝖙 𝖍𝖔𝖜 𝖙𝖔 𝖚𝖘𝖊 𝖒𝖊 𝖕𝖑𝖊𝖆𝖘𝖊 𝖌𝖎𝖛𝖊 𝖒𝖊 🙃 /help... 
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+𝖎𝖒 𝖆 𝖌𝖗𝖔𝖚𝖕 𝖒𝖆𝖓𝖆𝖌𝖊𝖗 𝖇𝖔𝖙 𝖒𝖆𝖎𝖓𝖙𝖆𝖎𝖓𝖊𝖉 𝖇𝖞  [this person](tg://user?id={}).
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
+𝙈𝙮 𝙛𝙪𝙩𝙪𝙧𝙚 𝙪𝙥𝙙𝙖𝙩𝙚𝙨 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙥𝙪𝙩 𝙞𝙣𝙩𝙤 𝙈𝙮 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥 @cyberwordk.
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
+╰•★★ ɬɧıʂ ıʂ ɱყ ★★•╯[𝐰𝐞𝐛𝐬𝐢𝐭](www.cyberwordk.tk),
 
-For more commands click /help...
+𝐅𝐨𝐫 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐥𝐢𝐜𝐤/help...
 
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+ıllıllı⭐🌟 H͙e͙l͙l͙o͙! m͙y͙ n͙a͙m͙e͙ i͙s͙ 🌟⭐ıllıllı *{}*.
 
 *Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /donate: To find out more about donating!
+ - /start: ▄︻デS̷t̷a̷r̷t̷ ̷t̷h̷e̷ ̷b̷o̷t̷.̷.̷.̷══━一
+ - /help: ▄︻デh̷e̷l̷p̷.̷.̷.̷.̷══━一
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
+   - in PM: ▄︻デT̷o̷ ̷f̷i̷n̷d̷ ̷o̷u̷t̷ ̷w̷h̷a̷t̷ ̷S̷E̷T̷T̷I̷N̷G̷S̷ ̷y̷o̷u̷ ̷h̷a̷v̷e̷ ̷s̷e̷t̷.̷.̷.̷.̷══━一
    - in a group:
 
 {}
@@ -50,10 +47,10 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/kavinduaj) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of paying him; ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
